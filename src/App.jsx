@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.css'
-import { LoadingScreen } from './components/LoadingScreen';
+import { LoadingScreen } from './components/sections/LoadingScreen';
 import "./index.css"
-import { Navbar } from './components/Navbar';
-import { MobileMenu } from './components/MobileMenu';
+import { Navbar } from './components/sections/Navbar';
+import { MobileMenu } from './components/sections/MobileMenu';
 
 function App() {
   // eslint-disable-next-line no-unused-vars
