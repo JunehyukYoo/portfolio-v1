@@ -1,7 +1,7 @@
 export const About = () => {
 
     const fullstackSkills = ["React", "HTML", "Javascript/Typescript", "CSS/TailwindCSS", "Node.js", "Python"];
-    const programmingLanguage = ["C", "C++", "Java", "Assembly", "Verilog", "OOP"];
+    const programmingLanguage = ["C", "C++", "Java", "Assembly", "Verilog", "OOP", "Machine learning"];
     const humanLanguage = ["English (fluent)", "Korean (semi-fluent)", "Chinese (intermediate)"]
     const miscSkills = ["Circuit management", "Call-servers", "Wiring/Cabling", "Human Centered Design"];
 
@@ -101,7 +101,7 @@ export const About = () => {
                             </li>
                             <li className="text-sm">
                                 Relevant coursework: Applied Machine Learning, Algorithms and Models of Computation, Systems Programming, 
-                                Data Structures, Computer Architecture, Discrete Structures...
+                                Data Structures, Computer Architecture, Discrete Structures, Elements of Syntax, Elements Semantics & Pragmatics...
                             </li>
                             <li className="text-sm">Expected graduation: May 2026</li>
 
@@ -119,7 +119,7 @@ export const About = () => {
                                         className="inline-flex items-center font-bold hover:text-blue-300"
                                         target="_blank"
                                         rel="noopener noreferrer">
-                                            Exchange Systems Operator (교환시설)
+                                            Exchange Systems Operator (교환병)
                                         </a>
                                         <br></br>Capital Defense Command, ROKA (Nov 2022 - May 2024)
                                     </li>
