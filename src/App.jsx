@@ -6,6 +6,7 @@ import { Navbar } from './components/sections/Navbar';
 import { MobileMenu } from './components/sections/MobileMenu';
 import { Home } from './components/Home';
 import { About } from './components/About';
+import { Project } from './components/Projects';
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -21,6 +22,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
         <About/>
+        <Project/>
     </div>
 
     </>
