@@ -4,6 +4,7 @@ import { LoadingScreen } from './components/sections/LoadingScreen';
 import "./index.css"
 import { Navbar } from './components/sections/Navbar';
 import { MobileMenu } from './components/sections/MobileMenu';
+import { Home } from './components/Home';
 
 function App() {
   // eslint-disable-next-line no-unused-vars
@@ -17,6 +18,7 @@ function App() {
     >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+        <Home/>
     </div>
 
     </>
