@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 // eslint-disable-next-line react/prop-types
 export const LoadingScreen = ({ onComplete }) => {
     const [text, setText] = useState("");
-    const fullText = "console.log(\"hello world\")";
+    const fullText = "print(\"hello world\")";
 
     useEffect(() => {
         let idx = 0;
