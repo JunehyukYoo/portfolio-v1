@@ -6,12 +6,12 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I'm an aspiring full-stack developer and general coding enthusiast who loves learning new skills and building new products. My goal is to continue
+                I&apos;m an aspiring full-stack developer and general coding enthusiast who loves learning new skills and building new products. My goal is to continue
                 my professional development and tackle real-world problems with the power of computer science.
             </p>
 
             <div className="flex justify-center space-x-4">
-                <a href="#project" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden 
+                <a href="#projects" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden 
                     hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
                     View Projects
                 </a>

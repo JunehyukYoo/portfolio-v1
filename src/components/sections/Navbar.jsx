@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 
+// eslint-disable-next-line react/prop-types
 export const Navbar = ({menuOpen, setMenuOpen}) => {
     useEffect(()=>{
         document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -21,16 +22,16 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 {/* Navbar links */}
                 <div className="hidden md:flex items-center space-x-8">
                     <a href="#home" className="text-gray-300 hove:text-white transition-colors">
-                        {" "} Home {" "}
+                        Home
                     </a>
                     <a href="#about" className="text-gray-300 hove:text-white transition-colors">
-                        {" "} About {" "}
+                        About
                     </a>
                     <a href="#projects" className="text-gray-300 hove:text-white transition-colors">
-                        {" "} Projects {" "}
+                        Projects
                     </a>
                     <a href="#contact" className="text-gray-300 hove:text-white transition-colors">
-                        {" "} Contact {" "}
+                        Contact
                     </a>
                 </div>
             </div>

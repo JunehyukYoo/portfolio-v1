@@ -1,5 +1,4 @@
-import { useEffect } from "react"
-
+// eslint-disable-next-line react/prop-types
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {    
     return (
         <div
@@ -16,32 +15,36 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
         </button>
 
         {/* Menu links */}
-        <a href="#home" 
+        <a
+            href="#home"
+            onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} 
-            onClick={() => menuOpen(false)}>
-            {" "} Home {" "}
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+            Home
         </a>
 
-        <a href="#about" 
+        <a
+            href="#about"
+            onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} 
-            onClick={() => menuOpen(false)}>
-            {" "} About {" "}
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+            About
         </a>
 
-        <a href="#projects" 
+        <a
+            href="#projects"
+            onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} 
-            onClick={() => menuOpen(false)}>
-            {" "} Projects {" "}
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+            Projects
         </a>
 
-        <a href="#contact" 
+        <a
+            href="#contact"
+            onClick={() => setMenuOpen(false)}
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
-                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`} 
-            onClick={() => menuOpen(false)}>
-            {" "} Contact {" "}
+                        ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+            Contact
         </a>
         </div>
     )

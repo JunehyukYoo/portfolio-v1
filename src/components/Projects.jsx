@@ -56,6 +56,24 @@ export const Projects = () => {
                     </div>
                 </div>
 
+                {/* Project 3: Under progress div */}
+                <div className="flex flex-col justify-center align-center p-6 rounded-xl border border-white/10 hover:-translate-y-1 
+                hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all text-center">
+                    <h3 className="text-xl font-bold">Under Construction</h3>
+                    <p className="text-gray-400">
+                        Check again later! 
+                    </p>
+                </div>
+
+                {/* Project 4: Under progress div */}
+                <div className="flex flex-col justify-center align-center p-6 rounded-xl border border-white/10 hover:-translate-y-1 
+                hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all text-center">
+                    <h3 className="text-xl font-bold">Under Construction</h3>
+                    <p className="text-gray-400">
+                        Check again later! 
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
