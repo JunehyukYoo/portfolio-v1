@@ -1,4 +1,4 @@
-# Portfolio-v1
+# Portfolio-v1gi
 
 A personal portfolio website built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [TailwindCSS](https://tailwindcss.com/) to showcase projects, skills, and experience. [Emailjs](https://www.emailjs.com/) was used to implement the contact section.
 
