@@ -1,6 +1,6 @@
 export const About = () => {
 
-    const fullstackSkills = ["React", "HTML", "Javascript/Typescript", "CSS/TailwindCSS", "Node.js", "Python", "Prisma"];
+    const fullstackSkills = ["React", "HTML", "Javascript/Typescript", "CSS/TailwindCSS", "Node.js", "Vite", "Python", "Prisma"];
     const programmingLanguage = ["C", "C++", "Java", "Assembly", "Verilog", "OOP", "Machine learning"];
     const humanLanguage = ["English (fluent)", "Korean (semi-fluent)", "Chinese (intermediate)"]
     const miscSkills = ["Circuit management", "Call-servers", "Wiring/Cabling", "Human Centered Design"];

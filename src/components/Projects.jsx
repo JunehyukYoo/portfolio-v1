@@ -9,8 +9,8 @@ export const Projects = () => {
                     <h3 className="text-xl font-bold mb-2">Portfolio v1</h3>
                     <p className="text-gray-400 mb-4">My personal portfolio website that you are currently viewing. It was created primarily with React and TailwindCSS.
                         See Github for more info.</p>
-                    <div>
-                        {["React", "Node.js", "Javascript", "TailwindCSS", "HTML"].map((skill, key) => (
+                    <div className="flex flex-wrap gap-2">
+                        {["React", "Vite", "Node.js", "Javascript", "TailwindCSS", "HTML"].map((skill, key) => (
                             <span
                             key={key} 
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
@@ -36,7 +36,7 @@ export const Projects = () => {
                         Assisted in development of a full-stack web application promoting habit-building through interactive and social competitions.
                         Focused on fixing bugs and tweaking function logic during production. 
                         </p>
-                    <div>
+                    <div className="flex flex-wrap gap-2">
                         {["React", "Node.js", "Prisma", "Typescript"].map((skill, key) => (
                             <span
                             key={key} 
@@ -48,7 +48,7 @@ export const Projects = () => {
                     </div>
                     <div className="flex justify-end items-center pt-2">
                         <a href="https://github.com/KKeySimon/Competify/tree/main" 
-                            className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                            className="text-blue-400 hover:text-blue-300 transition-colors mt-14"
                             target="_blank"
                             rel="noopener noreferrer"> 
                             View Project »
