@@ -1,6 +1,6 @@
 export const About = () => {
 
-    const fullstackSkills = ["React", "HTML", "Javascript/Typescript", "CSS/TailwindCSS", "Node.js", "Python"];
+    const fullstackSkills = ["React", "HTML", "Javascript/Typescript", "CSS/TailwindCSS", "Node.js", "Python", "Prisma"];
     const programmingLanguage = ["C", "C++", "Java", "Assembly", "Verilog", "OOP", "Machine learning"];
     const humanLanguage = ["English (fluent)", "Korean (semi-fluent)", "Chinese (intermediate)"]
     const miscSkills = ["Circuit management", "Call-servers", "Wiring/Cabling", "Human Centered Design"];
@@ -83,7 +83,7 @@ export const About = () => {
                         <ul className="list-inside list-disc text-gray-300 space-y-2">
                             <li className="list-none"> 
                                 <a href="https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs/computer-science-linguistics"
-                                className="inline-flex items-center font-bold hover:text-blue-300"
+                                className="inline-flex items-center font-bold hover:text-blue-400"
                                 target="_blank"
                                 rel="noopener noreferrer">
                                     B.S. in Computer Science and Linguistics
@@ -116,7 +116,7 @@ export const About = () => {
                                 <ul className="list-inside text-gray-300 space-y-2">
                                     <li className="list-none"> 
                                         <a href="https://namu.wiki/w/%EC%A0%95%EB%B3%B4%ED%86%B5%EC%8B%A0#s-4.1.5"
-                                        className="inline-flex items-center font-bold hover:text-blue-300"
+                                        className="inline-flex items-center font-bold hover:text-blue-400"
                                         target="_blank"
                                         rel="noopener noreferrer">
                                             Exchange Systems Operator (교환병)
@@ -132,7 +132,7 @@ export const About = () => {
                                 <ul className="list-inside text-gray-300 space-y-2 pt-4">
                                     <li className="list-none"> 
                                         <a href="https://deepmetrics.co/"
-                                            className="inline-flex items-center font-bold hover:text-blue-300"
+                                            className="inline-flex items-center font-bold hover:text-blue-400"
                                             target="_blank"
                                             rel="noopener noreferrer">
                                                 Software Engineering Intern
