@@ -1,6 +1,6 @@
-# My Portfolio Website
+# Portfolio-v1
 
-A personal portfolio website built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [TailwindCSS](https://tailwindcss.com/) to showcase projects, skills, and experience.
+A personal portfolio website built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [TailwindCSS](https://tailwindcss.com/) to showcase projects, skills, and experience. [Emailjs](https://www.emailjs.com/) was used to implement the contact section.
 
 > **Note:** This project was created by following a template, and the original source code can be found here: [github.com/machadop1407/pedrotech-portfolio](https://github.com/machadop1407/pedrotech-portfolio) and YouTube video here: [https://www.youtube.com/watch?v=LGdPMf-SgBA&ab_channel=PedroTech](https://www.youtube.com/watch?v=LGdPMf-SgBA&ab_channel=PedroTech). This is merely the starting point to my development as a fullstack developer, and I hope to create my own original portfolio soon.
 
@@ -112,32 +112,13 @@ portfolio-website
 
 ## Deployment
 
-### GitHub Pages
+### Netlify or Vercel
 
-1. Run the production build:
-   ```bash
-   npm run build
-   ```
-2. Push the `dist` folder to a `gh-pages` branch or use a tool like [gh-pages](https://github.com/tschaub/gh-pages):
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-   Add the following to your `package.json`:
-   ```json
-   {
-     "scripts": {
-       "deploy": "gh-pages -d dist"
-     }
-   }
-   ```
-3. Deploy by running:
-   ```bash
-   npm run deploy
-   ```
-4. Go to your repository’s **Settings** > **Pages** and set the branch to `gh-pages`.  
-5. Your site should be available at `https://<username>.github.io/<repo-name>/`.
+1. **Log in** to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).  
+2. **Create a new site** and connect your GitHub repo.  
+3. **Specify build command** as `npm run build` (or `yarn build`) and the output directory as `dist`.  
+4. **Deploy** your site—Netlify/Vercel will handle the rest.
 
----
 
 ## Contributing
 
@@ -158,8 +139,8 @@ portfolio-website
 
 ### Credits
 
-- Original tutorial and source code: [github.com/machadop1407/pedrotech-portfolio](https://github.com/machadop1407/pedrotech-portfolio)  
-- Created by following the tutorial to implement a modern developer portfolio.
+- Original tutorial and source code: [github.com/machadop1407/pedrotech-portfolio](https://www.youtube.com/watch?v=LGdPMf-SgBA&ab_channel=PedroTech)  
+- Created by following the tutorial step by step to implement a modern developer portfolio.
 
 ### React + Vite
 
@@ -169,3 +150,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+
+Below is an updated **README.md** that includes a note explaining that this portfolio was created by following a tutorial and provides a link to the original source code.
+
+---
