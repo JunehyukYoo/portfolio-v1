@@ -2,7 +2,13 @@
 
 A personal portfolio website built with [Vite](https://vitejs.dev/), [React](https://react.dev/), and [TailwindCSS](https://tailwindcss.com/) to showcase projects, skills, and experience. [Emailjs](https://www.emailjs.com/) was used to implement the contact section. Deployed with [Netlify](https://www.netlify.com/) at:
 
-### [junehyukyoo.com](https://www.netlify.com/)
+<center>
+   <h2>
+   <a href="https://junehyukyoo.com">
+   junehyukyoo.com
+   </a>
+   </h2>
+</center>
 
 > **Note:** This project was created by following a template, and the original source code can be found here: [github.com/machadop1407/pedrotech-portfolio](https://github.com/machadop1407/pedrotech-portfolio) and YouTube video here: [https://www.youtube.com/watch?v=LGdPMf-SgBA&ab_channel=PedroTech](https://www.youtube.com/watch?v=LGdPMf-SgBA&ab_channel=PedroTech). This is merely the starting point to my development as a fullstack developer, and I hope to create my own original portfolio soon.
 
