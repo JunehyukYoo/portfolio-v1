@@ -141,7 +141,7 @@ export const About = () => {
                                                 rel="noopener noreferrer">
                                                     Software Engineering Intern
                                             </a>
-                                            <br></br>DeepMetrics (July - Oct 2024)
+                                            <br></br>DeepMetrics (July - Oct 2022)
                                         </li>
                                         <li className="text-sm">
                                             Handled data processing and analysis of vital files from ventilated patients in Seoul National University Hospital 
