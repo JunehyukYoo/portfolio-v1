@@ -10,6 +10,7 @@ export const About = () => {
     "Vite",
     "Python",
     "Prisma",
+    "SQL",
   ];
   const programmingLanguage = [
     "C",
@@ -173,11 +174,11 @@ export const About = () => {
                       2024)
                     </li>
                     <li className="text-sm">
-                      Managed Seoul's inter/intra military base communications
-                      via commercial and military-grade call servers. Created
-                      and maintained circuits for analog phone lines (and H/L),
-                      military satellites, radio networks, CCTVs, emergency
-                      alarm systems, etc.
+                      Managed Seoul&apos;s inter/intra military base
+                      communications via commercial and military-grade call
+                      servers. Created and maintained circuits for analog phone
+                      lines (and H/L), military satellites, radio networks,
+                      CCTVs, emergency alarm systems, etc.
                     </li>
                   </ul>
 
